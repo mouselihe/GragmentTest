@@ -1,8 +1,10 @@
-package com.example.gragmenttest;
+package com.example.Fragmenttest;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.gragmenttest.R;
 
 public class MainActivity extends AppCompatActivity {
 

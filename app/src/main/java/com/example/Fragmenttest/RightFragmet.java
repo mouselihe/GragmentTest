@@ -1,4 +1,4 @@
-package com.example.gragmenttest;
+package com.example.Fragmenttest;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,12 +9,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-public class LeftFragmet extends Fragment {
+import com.example.gragmenttest.R;
+
+public class RightFragmet extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.left_fragmet, container, false);
+        View view = inflater.inflate(R.layout.right_fragmet, container, false);
 
         return view;
     }

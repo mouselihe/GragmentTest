@@ -4,19 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context=".MainActivity">
+    tools:context="com.example.Fragmenttest.MainActivity">
 
     <fragment
         android:id="@+id/fragemet_left"
         android:layout_width="0dp"
         android:layout_weight="1"
-        android:name="com.example.gragmenttest.LeftFragmet"
+        android:name="com.example.Fragmenttest.LeftFragmet"
         android:layout_height="match_parent"/>
     <fragment
         android:id="@+id/fragemet_right"
         android:layout_width="0dp"
         android:layout_weight="1"
-        android:name="com.example.gragmenttest.RightFragmet"
+        android:name="com.example.Fragmenttest.RightFragmet"
         android:layout_height="match_parent"/>
 
 </LinearLayout>
